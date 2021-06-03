@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Promotion.API</name>
+    </assembly>
+    <members>
+        <member name="M:Promotion.API.Controllers.ProductController.GetAllProducts">
+            <summary>
+            Get All Product.
+            </summary>
+            <returns>List of Product.</returns>
+        </member>
+        <member name="M:Promotion.API.Controllers.ProductController.GetProduct(System.Int32)">
+            <summary>
+            Get Empployee by Id.
+            </summary>
+            <param name="id">Product Id.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:Promotion.API.Controllers.ProductController.Update(Promotion.Model.Product)">
+            <summary>
+            Update Product.
+            </summary>
+            <param name="product">product.</param>
+            <returns>Update Product.</returns>
+        </member>
+        <member name="M:Promotion.API.Controllers.ProductController.Create(PromotionDTO.ProductForCreateDTO)">
+            <summary>
+            Add Product.
+            </summary>
+            <param name="productDTO">productModel.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:Promotion.API.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Delete Product by Id.
+            </summary>
+            <param name="id">Product Id.</param>
+            <returns>Delete Record.</returns>
+        </member>
+    </members>
+</doc>
