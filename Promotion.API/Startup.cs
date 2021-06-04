@@ -55,6 +55,7 @@ namespace Promotion.API
             });
 
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IPromotionRepository, PromotionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

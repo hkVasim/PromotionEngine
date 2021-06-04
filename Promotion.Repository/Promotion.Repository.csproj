@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Promotion.Model\Promotion.Model.csproj" />
+    <ProjectReference Include="..\PromotionDTO\Promotion.DTO.csproj" />
   </ItemGroup>
 
 </Project>

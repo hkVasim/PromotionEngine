@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Promotion.Repository\Promotion.Repository.csproj" />
-    <ProjectReference Include="..\PromotionDTO\PromotionDTO.csproj" />
+    <ProjectReference Include="..\PromotionDTO\Promotion.DTO.csproj" />
   </ItemGroup>
 
 

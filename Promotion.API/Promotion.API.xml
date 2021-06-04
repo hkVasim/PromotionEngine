@@ -38,5 +38,12 @@
             <param name="id">Product Id.</param>
             <returns>Delete Record.</returns>
         </member>
+        <member name="M:Promotion.API.Controllers.PromotionController.GetAllProducts(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="typeOfPromotion"> Enter String ex. ABCD</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
