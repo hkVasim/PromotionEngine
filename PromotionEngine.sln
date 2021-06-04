@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Promotion.API", "Promotion.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Promotion.DTO", "PromotionDTO\Promotion.DTO.csproj", "{4A1343A3-5C9E-4227-B0C3-72180834CCF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Promotion.API", "Test.Promotion.API\Test.Promotion.API.csproj", "{B8D618E4-5FDB-4728-A63C-C36C37B22E63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4A1343A3-5C9E-4227-B0C3-72180834CCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1343A3-5C9E-4227-B0C3-72180834CCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A1343A3-5C9E-4227-B0C3-72180834CCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D618E4-5FDB-4728-A63C-C36C37B22E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D618E4-5FDB-4728-A63C-C36C37B22E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D618E4-5FDB-4728-A63C-C36C37B22E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D618E4-5FDB-4728-A63C-C36C37B22E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

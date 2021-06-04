@@ -38,7 +38,7 @@
             <param name="id">Product Id.</param>
             <returns>Delete Record.</returns>
         </member>
-        <member name="M:Promotion.API.Controllers.PromotionController.GetAllProducts(System.String)">
+        <member name="M:Promotion.API.Controllers.PromotionController.GetTotal(System.String)">
             <summary>
             
             </summary>

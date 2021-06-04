@@ -9,7 +9,7 @@ using Promotion.Repository;
 
 namespace Promotion.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/promotion")]
     [ApiController]
     public class PromotionController : ControllerBase
     {
@@ -27,7 +27,7 @@ namespace Promotion.API.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetTotal")]
-        public ActionResult GetAllProducts(string typeOfPromotion)
+        public ActionResult GetTotal(string typeOfPromotion)
         {
             return Ok(this._promotionRepository.GetTotal(typeOfPromotion.ToCharArray()));
         }
