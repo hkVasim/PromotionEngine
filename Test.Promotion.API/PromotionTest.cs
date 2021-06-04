@@ -30,6 +30,8 @@ namespace Test.Promotion.API
         {
             var result = promotionController.GetTotal(inputString);
             Assert.AreEqual(100, result);
+            Assert.AreEqual(370, result);
+            Assert.AreEqual(280, result);
             Assert.Pass();
         }
     }
